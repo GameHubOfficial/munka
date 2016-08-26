@@ -8,14 +8,14 @@ local prefix = "#6CAD39"
 
 local widgets = {
 
-    --// A widgetek még nem véglegesek! - #KS
+        --// Elérhető Widgetek
 	{"HUD", "enabled", "kepX", "kepY", 1, 20} --// Bekapcsolva
 	{"Radar", "enabled", "kepX", "kepY", 1, 20} --// Bekapcsolva
 	{"FPS", "enabled", "kepX", "kepY", 1, 20} --// Bekapcsolva 
 	{"BlueCoin", "disabled", "kepX", "kepY", 0, 0} --// Kikapcsolva
 	{"Ping", "disabled", "kepX", "kepY", 0, 0} --// Kikapcsolva
 	{"Name", "enabled", "kepX", "kepY", 1, 20} --// Bekapcsolva
-	{"Szint", "enabled", "kepX", "kepY", 1, 20}
+	{"Szint", "enabled", "kepX", "kepY", 1, 20} --// Bekapcsolva
 
 }
 
@@ -33,5 +33,5 @@ end
 --// Sikertelen
 
 function sikertelen()
-	outputChatBox("#6CAD39[Hiba!] #ffffffSikertelen hozzá adás!", source, 255, 255, 255)
+    outputChatBox("#6CAD39[Hiba!] #ffffffSikertelen hozzá adás!", source, 255, 255, 255)
 end
